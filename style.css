@@ -1,0 +1,39 @@
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+background-color: beige;
+}
+nav {
+background-color: #722f37;
+font-size: 25px;
+padding: 15px;
+text-align: center;
+}
+nav a {
+color: #3f0112;
+text-decoration: none;
+margin: 0 15px;
+}
+nav a:hover {
+color: black;
+}
+p {
+text-align: center;
+font-size: 18px;
+color: #3f0112;
+}
+.gallery {
+text-align: center;
+margin: 20px;
+
+}
+
+.gallery img {
+margin: 10px;
+border-radius: 8px;
+ box-shadow: 10px 10px #780606;
+}
+
+.gallery img:hover{
+transform: scale(1.05);
+}
